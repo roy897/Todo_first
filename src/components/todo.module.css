@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+  }
+  
+  .todo > div:nth-child(odd) {
+    background-color: blanchedalmond;
+  }
+  .todo > div {
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+  }
+  .todo > div:hover {
+    background-color: rgba(122, 182, 11, 0.877);
+  }
+  .cha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    line-height: 30px;
+    padding: 20px;
+    margin-top: 8px;
+  }
+  
+  .striked {
+    text-decoration: line-through;
+  }
+  button {
+    background-color: rgb(41, 92, 41);
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: red;
+  }
+  
+  /* @media all screen (minwidth = 720px){
+  
+  } */
+  
